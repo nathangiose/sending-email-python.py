@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 s = smtplib.SMTP('smtp.gmail.com', 587)
 sender_email_id = 'nathangiose@gmail.com'
-receiver_email_id = 'thapelo@lifechoices.co.za, mujaid.kariem22@gmail.com, letsgoforcoffeelater@gmail.com'
+receiver_email_id = 'thapelo@lifechoices.co.za, mujaid.kariem22@gmail.com, letsgoforcoffeelater@gmail.com, nathanjohngiose@gmail.com'
 password = input("Enter Senders Email Password: ")
 
 subject = "Greetings"
